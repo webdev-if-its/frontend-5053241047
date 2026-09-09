@@ -38,7 +38,7 @@ main.tsx adalah pintu masuk paling awal ketika suatu project dibuka di browser. 
 Git commit adalah ketika pengerjaan kode terbaru ditandai perubahannya dan tersimpan di repository lokal, lalu git push adalah proses penyimpanan atau penetapan kode terbaru tersebut di repositori jaringan git. Jika seseorang melakukan commit tanpa melakukan push, maka pembaruan kode tidak akan tersimpan dan tidak dapat diakses atau dilihat oleh tim secara online.
 
 ## JSX vs TSX
-(tulis di sini)
+File .jsx adalah file yang menggunakan Javascript biasa untuk menulis sintaksnya, sementara .tsx adalah file yang menggunakan Typescript atau versi Javascript yang dilengkapi dengan type-checking otomatis. Project ini memakai .tsx atau Typescript agar lebih memudahkan pengerjaan kode karena error akan langsung terdeteksi jika sewaktu-waktu muncul dalam penulisan. Selain itu, dengan auto-compile dan saran editor yang lebih lengkap, tentunya akan lebih memudahkan proses pengerjaan kode tersebut.
 
 ## Kenapa Union Type untuk Status
 (tulis di sini)
