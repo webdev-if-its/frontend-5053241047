@@ -35,7 +35,7 @@ main.tsx adalah pintu masuk paling awal ketika suatu project dibuka di browser. 
 - Kelas: Pengembangan Frontend Dasar (M)
 
 ## Commit vs Push
-(tulis di sini)
+Git commit adalah ketika pengerjaan kode terbaru ditandai perubahannya dan tersimpan di repository lokal, lalu git push adalah proses penyimpanan atau penetapan kode terbaru tersebut di repositori jaringan git. Jika seseorang melakukan commit tanpa melakukan push, maka pembaruan kode tidak akan tersimpan dan tidak dapat diakses atau dilihat oleh tim secara online.
 
 ## JSX vs TSX
 (tulis di sini)
