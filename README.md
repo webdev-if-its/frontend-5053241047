@@ -27,12 +27,12 @@ Kalau dosen memperbaiki sesuatu di pertemuan yang sudah dirilis (mis. ada bug di
 Bagian di bawah ini **isi bertahap** sesuai level yang sedang kalian kerjakan (lihat `pertemuan-XX/SOAL.md`) — heading-nya dicek otomatis, jangan diganti namanya.
 
 ## Struktur Project
-(tulis di sini)
+main.tsx adalah pintu masuk paling awal ketika suatu project dibuka di browser. File ini akan menghubungkan React ke file HTML dan merendernya sehingga dimengerti oleh sistem browser. Sementara App.tsx, ini adalah file yang menjadi induk dari sebuah project. Fungsinya untuk menyatukan semua elemen website yang terpisah di berbagai file dalam project dan mengarahkan website untuk menampilkan bagian elemen yang benar.
 
 ## Identitas
-- Nama: (tulis di sini)
-- NRP: (tulis di sini)
-- Kelas: (tulis di sini)
+- Nama: Fathiya Haya Shafa Kamila Setiadi
+- NRP: 5053241047
+- Kelas: Pengembangan Frontend Dasar (M)
 
 ## Commit vs Push
 (tulis di sini)
