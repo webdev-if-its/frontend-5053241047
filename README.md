@@ -44,4 +44,4 @@ File .jsx adalah file yang menggunakan Javascript biasa untuk menulis sintaksnya
 Penggunaan union type di sini berguna salah satunya untuk meminimalisir kesalahan dari pihak developer. Dalam union type, daftar pilihan kata yang valid akan terkunci sehingga ketika ada typo saat penulisan, akan langsung ada pemberitahuan. Karena penggunaan string biasa tidak bisa melakukan ini sehingga rawan error, union type menjadi pilihan yang cocok digunakan. Selain itu, dalam penulisan kodenya, akan ada fitur auto-complete yang langsung menampilkan pilihan kata valid sehingga developer tidak perlu menulis ulang. Hal ini tentu akan lebih memudahkan proses penulisan.
 
 ## Refleksi
-(tulis di sini)
+Konsep komponen yang berkesan bagi saya adalah konsep props yang sebenarnya mirip attribut di HTML namun lebih bebas dan leluasa. Menurut saya, props membuat pengiriman data antar komponen menjadi lebih mudah karena kita bisa mengatur sendiri nama serta tipe datanya tanpa batasan.
