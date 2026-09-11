@@ -41,7 +41,7 @@ Git commit adalah ketika pengerjaan kode terbaru ditandai perubahannya dan tersi
 File .jsx adalah file yang menggunakan Javascript biasa untuk menulis sintaksnya, sementara .tsx adalah file yang menggunakan Typescript atau versi Javascript yang dilengkapi dengan type-checking otomatis. Project ini memakai .tsx atau Typescript agar lebih memudahkan pengerjaan kode karena error akan langsung terdeteksi jika sewaktu-waktu muncul dalam penulisan. Selain itu, dengan auto-compile dan saran editor yang lebih lengkap, tentunya akan lebih memudahkan proses pengerjaan kode tersebut.
 
 ## Kenapa Union Type untuk Status
-(tulis di sini)
+Penggunaan union type di sini berguna salah satunya untuk meminimalisir kesalahan dari pihak developer. Dalam union type, daftar pilihan kata yang valid akan terkunci sehingga ketika ada typo saat penulisan, akan langsung ada pemberitahuan. Karena penggunaan string biasa tidak bisa melakukan ini sehingga rawan error, union type menjadi pilihan yang cocok digunakan. Selain itu, dalam penulisan kodenya, akan ada fitur auto-complete yang langsung menampilkan pilihan kata valid sehingga developer tidak perlu menulis ulang. Hal ini tentu akan lebih memudahkan proses penulisan.
 
 ## Refleksi
 (tulis di sini)
