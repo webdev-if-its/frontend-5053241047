@@ -45,3 +45,6 @@ Penggunaan union type di sini berguna salah satunya untuk meminimalisir kesalaha
 
 ## Refleksi
 Konsep komponen yang berkesan bagi saya adalah konsep props yang sebenarnya mirip attribut di HTML namun lebih bebas dan leluasa. Menurut saya, props membuat pengiriman data antar komponen menjadi lebih mudah karena kita bisa mengatur sendiri nama serta tipe datanya tanpa batasan.
+
+## Refleksi Pertemuan 3
+Saya terkesan dengan bagaimana penggunaan Tailwind memudahkan kita sehingga tidak perlu bolak-balik antara file berisi kode yang sedang dikerjakan dengan file berisi styling dari setiap bagian kode seperti yang terjadi jika kita menggunakan HTML + CSS biasa. Selain itu, saya juga terkesan dengan bagaimana kita bisa mengontrol elemen yang muncul di layar dengan conditional rendering.
