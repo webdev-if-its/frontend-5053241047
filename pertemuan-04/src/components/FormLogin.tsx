@@ -3,6 +3,17 @@
 // "Masuk". Saat form dikirim: cegah reload halaman (e.preventDefault()),
 // lalu panggil onLogin dengan isi email.
 // Lihat SOAL.md untuk kontrak lengkap.
-export function FormLogin(props: any) {
-  return <p>TODO</p>
+import { useState } from "react"
+
+export function FormLogin(props: { onLogin: (email: string) => void }) {
+  const [email, setEmail] = useState('')
+  return <form onSubmit={(e) => {e.preventDefault()
+  props.onLogin(email)}}>
+    <label>Email<input
+    type="email"
+    value={email}
+    onChange={(e) => setEmail(e.target.value)} />
+    </label>
+    <button type="submit">Masuk</button>
+  </form>
 }
