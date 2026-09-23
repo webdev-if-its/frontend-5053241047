@@ -4,5 +4,5 @@
 // yang tepat.
 // Lihat SOAL.md untuk kontrak lengkap.
 export function KotakInput(props: { onUbah: (nilai: string) => void }) {
-  return <p>TODO</p>
+  return <input onChange={(e) => props.onUbah(e.target.value)} />
 }
