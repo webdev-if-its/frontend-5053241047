@@ -3,6 +3,20 @@
 // useState<string>, dan tampilkan teks "Halo, {nama}!" — kalau nama masih
 // kosong, tampilkan "Halo, Tamu!".
 // Lihat SOAL.md untuk kontrak lengkap.
-export function SapaNama(props: any) {
-  return <p>TODO</p>
+import { useState } from "react"
+
+export function SapaNama() {
+  const [nama, setNama] = useState('')
+  return (
+  <div>
+  <label>
+    Nama
+    <input
+      type="text"
+      value={nama}
+      onChange={(e) => setNama(e.target.value)}
+    />
+  </label>
+  <p>Halo, {nama ? nama : 'Tamu'}!</p>
+  </div>)
 }
