@@ -48,3 +48,6 @@ Konsep komponen yang berkesan bagi saya adalah konsep props yang sebenarnya miri
 
 ## Refleksi Pertemuan 3
 Saya terkesan dengan bagaimana penggunaan Tailwind memudahkan kita sehingga tidak perlu bolak-balik antara file berisi kode yang sedang dikerjakan dengan file berisi styling dari setiap bagian kode seperti yang terjadi jika kita menggunakan HTML + CSS biasa. Selain itu, saya juga terkesan dengan bagaimana kita bisa mengontrol elemen yang muncul di layar dengan conditional rendering.
+
+## Refleksi Pertemuan 4
+Sejauh yang saya pahami, variabel biasa bukan elemen yang bisa dirender otomatis oleh React. Untuk menandai bahwa suatu elemen itu mengalami perubahan dan React tahu bahwa dia perlu mengubahnya, maka kita menggunakan state. Kemudian terkait e.target.value, secara default tipe datanya di React adalah string. Jadi jika misalnya kita berniat menambahkan angka 10 + 5, kita malah akan mendapat angka 105 dan bukan 15. Karena itu, jika ingin menggunakan tipe data lain, kita perlu mengonversinya terlebih dahulu.
