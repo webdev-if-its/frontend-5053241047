@@ -6,7 +6,7 @@
 // export const BASE_URL = 'https://jsonplaceholder.typicode.com/todos'
 
 // Level 1 & 2
-import { Todo } from '../types'
+import type { Todo } from '../types'
 
 export async function getTodos(): Promise<Todo[]> {
   const res = await fetch('https://jsonplaceholder.typicode.com/todos')
