@@ -51,3 +51,6 @@ Saya terkesan dengan bagaimana penggunaan Tailwind memudahkan kita sehingga tida
 
 ## Refleksi Pertemuan 4
 Sejauh yang saya pahami, variabel biasa bukan elemen yang bisa dirender otomatis oleh React. Untuk menandai bahwa suatu elemen itu mengalami perubahan dan React tahu bahwa dia perlu mengubahnya, maka kita menggunakan state. Kemudian terkait e.target.value, secara default tipe datanya di React adalah string. Jadi jika misalnya kita berniat menambahkan angka 10 + 5, kita malah akan mendapat angka 105 dan bukan 15. Karena itu, jika ingin menggunakan tipe data lain, kita perlu mengonversinya terlebih dahulu.
+
+## Refleksi Pertemuan 6
+Efek yang memasang timer atau event listener wajib punya cleanup karena pada kedua fungsi ini diperlukan suatu fungsi yang dapat mencegah terjadinya kebocoran memori atau adanya timer serta listener yang berjalan di latar belakang tanpa disadari saat komponen mengalami rerender. Jika cleanup dilupakan, sistem mungkin menjadi lambat karena aktivitas di latar belakang tadi, serta dapat memicu error atau perilaku aneh dari sistem. Hal ini berkaitan dengan StrictMode yang secara otomatis menjalankan efek dua kali, yaitu mount, unmount, lalu mount kembali, yang mana ini bertujuan untuk melakukan simulasi pelepasan komponen sehingga developer bisa mengetahui jika ada efek yang belum memiliki fungsi cleanup yang benar.
